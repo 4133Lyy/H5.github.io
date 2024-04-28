@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <link rel = "stylesheet" href = "css/base.css">
+    <link rel = "stylesheet" href = "css/index.css">
+</head>
+<body>
+    <!-- 头部 -->
+    <div class = "header" >
+        <div class = "wrapper">
+            <!--导航-->
+            <div class = "nav">
+                <ul>
+                    <li><a href = "#"  >首页</a></li>
+                    <li><a href = "#"  >个人信息</a></li>
+                </ul>
+            </div>
+            <!--搜索-->
+            <div class = "search">
+                <input type = "text" placeholder = "请输入关键字">
+                <a href = "#"></a>
+            </div>
+            <!--用户-->
+            <div class = "user">
+                <a href = "#">
+                    <span>202212303073廖燕燕</span>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- 首页 -->
+    <div class = "homepage" >
+        <div class = "banner">
+            <div class = "left">
+                <ul>
+                    <li><a href="#"  >第一章</a></li>
+                    <li><a href="#">第二章</a></li>
+                    <li><a href="#">第三章</a></li>
+                    <li><a href="#" >第四章</a></li>
+                    <li><a href="#" >第五章</a></li>
+                    <li><a href="#" class = "A"> 第六章</a></li>
+                    <li><a href="#">第七章</a></li>
+                    <li><a href="#">第八章</a></li>
+                    <li><a href="#">第九章</a></li>
+                    <li><a href="#">第十章</a></li>
+                  </ul>
+            </div>
+            <div class = "welcome">
+                <p>
+                    <h1>1.过滤器的生命周期是什么？过滤器是否为单项的过滤过程？请编程加以说明.</h1>
+	过滤器的生命周期分为四个阶段：加载和实例化→初始化→
+执行doFilter（）方法→销毁。<br>
+过滤器通常是单向的。
+<br>
+
+编程实现：<br>
+<img src = "s7.png">
+<br>
+<img src = "s8.png">
+<br>
+<img src = "s9.png">
+<br>
+<img src = "s10.png">
+<h1>2.监听器的作用是什么？有哪些常用的监听器？</h1>
+监听器是一种Servlet中的特殊的类，它们能帮助开发者监听web中的特定事件，比如ServletContext,HttpSession,ServletRequest的创建和销毁；变量的创建、销毁和修改等。可以在某些动作前后增加处理，实现监控。
+通常使用Web监听器做以下的内容：<br>
+　　1.统计在线人数，利用HttpSessionLisener<br>
+　　2.加载初始化信息：利用ServletContextListener<br>
+　　3.统计网站访问量<br>
+　　4.实现访问监控<br>
+			
+                </p>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
